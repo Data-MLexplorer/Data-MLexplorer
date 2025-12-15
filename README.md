@@ -1,4 +1,3 @@
-[GitHub_Profile_README.md](https://github.com/user-attachments/files/24176587/GitHub_Profile_README.md)
 # Hi there, I'm Deep Sharma 👋
 ### Data Scientist | ML Explorer | Data Enthusiast
 
@@ -64,18 +63,28 @@
 
 ## 📫 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deep-sharma-she-her-3a1b065b/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourportfolio.com)
 
 ## 💼 Featured Projects
 
-Here are some of my key projects:
+### 🥑 [Avocado Retailing - Time Series Model](https://github.com/Data-MLexplorer/avocado_retailing)
+Advanced time series forecasting model for avocado retail pricing and demand analysis. Implements statistical and machine learning approaches to predict market trends and optimize inventory management.
 
-1. **[Project Name 1]** - Description of your ML/Data Science project
-2. **[Project Name 2]** - Description of your analytics project
-3. **[Project Name 3]** - Description of your data visualization project
+**Key Features:**
+- Time series analysis and forecasting
+- Price prediction models
+- Demand pattern recognition
+- Retail analytics dashboard
+
+**Tech Stack:** Python, Pandas, Scikit-learn, Time Series Analysis
+
+---
+
+### 📌 More Projects Coming Soon!
+Check out my [repositories](https://github.com/Data-MLexplorer?tab=repositories) for more data science and ML projects.
 
 ## 📚 Recent Activity
 
