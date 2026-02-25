@@ -70,6 +70,33 @@
 
 ## 💼 Featured Projects
 
+🤖 Fine-Tuning BERT for Sentiment Analysis - NLP/Deep Learning
+Fine-tuned a pre-trained BERT (bert-base-uncased) model for binary sentiment classification using PyTorch and HuggingFace Transformers. Built a custom classification head on top of a frozen BERT backbone, implementing transfer learning to efficiently train on smaller datasets. Includes detailed analysis of model limitations and a documented improvement roadmap.
+Key Features:
+
+Transfer learning with frozen BERT backbone
+Custom classification head (Linear → ReLU → Dropout → LogSoftmax)
+Stratified train/val/test splitting for class balance
+Class-weighted loss handling for imbalanced data
+Documented performance analysis and improvement roadmap
+
+Tech Stack: Python, PyTorch, HuggingFace Transformers, Scikit-learn, Pandas, NumPy
+
+*******************************************************************************************
+
+🗄️ Vector Database Foundation - Semantic Search & Embeddings
+Hands-on exploration of vector database concepts and semantic similarity using FAISS and SentenceTransformers. Demonstrates the core building blocks of modern RAG (Retrieval-Augmented Generation) pipelines and LLM-powered search systems.
+Key Features:
+
+Sentence embeddings using sentence-transformers/all-MiniLM-L6-v2
+Built and compared two FAISS indices: IndexFlatL2 (Euclidean) and IndexFlatIP (Inner Product / cosine similarity)
+Semantic similarity measurement and ranking
+2D embedding visualization using PCA for intuitive understanding of vector space
+
+Tech Stack: Python, FAISS (CPU), ChromaDb, SentenceTransformers, Scikit-learn (PCA), Matplotlib
+
+********************************************************************************************
+
 ### 🥑 [Avocado Retailing - Time Series Model](https://github.com/Data-MLexplorer/avocado_retailing)
 Advanced time series forecasting model for avocado retail pricing and demand analysis. Implements statistical and machine learning approaches to predict market trends and optimize inventory management.
 
