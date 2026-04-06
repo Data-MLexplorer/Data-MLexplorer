@@ -3,24 +3,90 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Data-MLexplorer&color=blue&style=flat-square)](https://github.com/Data-MLexplorer)
 
+---
+
 ## 🚀 About Me
 
 🌟 Passionate about exploring data and building machine learning solutions  
 📊 Turning data into actionable insights  
 💡 Always learning and experimenting with new technologies  
-🎯 Focus: Data Science, Machine Learning, and Analytics
+🎯 Focus: Data Science, Machine Learning, and Analytics  
+🧪 Interested in MLOps, model deployment, and real-world ML applications
 
-## 📊 GitHub Stats
+---
 
-<div align="center">
+## 🧠 Highlight Project – Stroke Risk Prediction
 
-![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Data-MLexplorer&show_icons=true&theme=radical&hide_border=true&count_private=true)
+A machine learning–based **Stroke Risk Prediction** system with a FastAPI backend and modern web interface.
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Data-MLexplorer&theme=radical&hide_border=true)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange?logo=scikit-learn)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Data-MLexplorer&layout=compact&theme=radical&hide_border=true)
+- Real-time stroke risk prediction based on patient data  
+- Logistic Regression pipeline with preprocessing (numerical + categorical features)  
+- REST API built with FastAPI and Uvicorn  
+- Modern, responsive frontend (HTML, CSS, JavaScript) for interactive predictions  
+- Packaged ML model (`stroke_model_bundle.pkl`) with reproducible pipeline
 
-</div>
+**Tech Stack:** FastAPI, scikit-learn, pandas, numpy, category_encoders, HTML/CSS/JavaScript  
+
+> 🔬 Disclaimer: This project is for educational purposes only and must not be used for real medical decisions. Always consult qualified healthcare professionals.
+
+---
+
+## 💼 Featured Projects
+
+### 🧠 Stroke Risk Prediction – ML + FastAPI
+Machine learning–based stroke risk prediction API with a FastAPI backend and modern web UI for real-time inference on patient data.  
+**Highlights:** Logistic Regression pipeline, preprocessing, REST API, responsive frontend, JSON-based prediction endpoint (`POST /predict`).
+
+---
+
+### 🤖 Fine-Tuning BERT for Sentiment Analysis – NLP / Deep Learning
+Fine-tuned a pre-trained BERT (bert-base-uncased) model for binary sentiment classification using PyTorch and HuggingFace Transformers. Built a custom classification head on a frozen BERT backbone and documented clear improvement paths.
+
+**Key Features:**
+- Transfer learning with frozen BERT backbone  
+- Custom classification head (Linear → ReLU → Dropout → LogSoftmax)  
+- Stratified train/val/test split for class balance  
+- Class-weighted loss for imbalanced data  
+- Detailed performance analysis and improvement roadmap  
+
+**Tech Stack:** Python, PyTorch, HuggingFace Transformers, scikit-learn, pandas, numpy
+
+---
+
+### 🗄️ Vector Database Foundation – Semantic Search & Embeddings
+Hands-on exploration of vector databases and semantic similarity using FAISS and SentenceTransformers. Shows the core building blocks of modern RAG and LLM-powered search systems.
+
+**Key Features:**
+- Sentence embeddings with `sentence-transformers/all-MiniLM-L6-v2`  
+- FAISS indices: IndexFlatL2 (Euclidean) and IndexFlatIP (inner product / cosine)  
+- Semantic similarity measurement and ranking  
+- 2D embedding visualization with PCA for intuitive vector space understanding  
+
+**Tech Stack:** Python, FAISS (CPU), ChromaDB, SentenceTransformers, scikit-learn (PCA), Matplotlib
+
+---
+
+### 🥑 [Avocado Retailing – Time Series Model](https://github.com/Data-MLexplorer/avocado_retailing)
+Advanced time series forecasting for avocado retail pricing and demand analysis.
+
+**Key Features:**
+- Time series analysis and forecasting  
+- Price prediction models  
+- Demand pattern recognition  
+- Retail analytics dashboard  
+
+**Tech Stack:** Python, pandas, scikit-learn, time series analysis
+
+---
+
+### 📌 More Projects
+Check out my [repositories](https://github.com/Data-MLexplorer?tab=repositories) for more data science and ML work.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -49,9 +115,27 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Deep's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Data-MLexplorer&show_icons=true&theme=radical&hide_border=true&count_private=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Data-MLexplorer&theme=radical&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Data-MLexplorer&layout=compact&theme=radical&hide_border=true)
+
+</div>
+
+---
+
 ## 📈 Contribution Graph
 
 [![Deep's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Data-MLexplorer&theme=react-dark&hide_border=true)](https://github.com/Data-MLexplorer)
+
+---
 
 ## 🏆 GitHub Trophies
 
@@ -61,66 +145,24 @@
 
 </div>
 
-## 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deep-sharma-she-her-3a1b065b/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourportfolio.com)
-
-## 💼 Featured Projects
-
-🤖 Fine-Tuning BERT for Sentiment Analysis - NLP/Deep Learning
-Fine-tuned a pre-trained BERT (bert-base-uncased) model for binary sentiment classification using PyTorch and HuggingFace Transformers. Built a custom classification head on top of a frozen BERT backbone, implementing transfer learning to efficiently train on smaller datasets. Includes detailed analysis of model limitations and a documented improvement roadmap.
-Key Features:
-
-Transfer learning with frozen BERT backbone
-Custom classification head (Linear → ReLU → Dropout → LogSoftmax)
-Stratified train/val/test splitting for class balance
-Class-weighted loss handling for imbalanced data
-Documented performance analysis and improvement roadmap
-
-Tech Stack: Python, PyTorch, HuggingFace Transformers, Scikit-learn, Pandas, NumPy
-
-*******************************************************************************************
-
-🗄️ Vector Database Foundation - Semantic Search & Embeddings
-Hands-on exploration of vector database concepts and semantic similarity using FAISS and SentenceTransformers. Demonstrates the core building blocks of modern RAG (Retrieval-Augmented Generation) pipelines and LLM-powered search systems.
-Key Features:
-
-Sentence embeddings using sentence-transformers/all-MiniLM-L6-v2
-Built and compared two FAISS indices: IndexFlatL2 (Euclidean) and IndexFlatIP (Inner Product / cosine similarity)
-Semantic similarity measurement and ranking
-2D embedding visualization using PCA for intuitive understanding of vector space
-
-Tech Stack: Python, FAISS (CPU), ChromaDb, SentenceTransformers, Scikit-learn (PCA), Matplotlib
-
-********************************************************************************************
-
-### 🥑 [Avocado Retailing - Time Series Model](https://github.com/Data-MLexplorer/avocado_retailing)
-Advanced time series forecasting model for avocado retail pricing and demand analysis. Implements statistical and machine learning approaches to predict market trends and optimize inventory management.
-
-**Key Features:**
-- Time series analysis and forecasting
-- Price prediction models
-- Demand pattern recognition
-- Retail analytics dashboard
-
-**Tech Stack:** Python, Pandas, Scikit-learn, Time Series Analysis
-
 ---
 
-### 📌 More Projects Coming Soon!
-Check out my [repositories](https://github.com/Data-MLexplorer?tab=repositories) for more data science and ML projects.
+## 📫 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ds-deep-sharma/)
+
+---
 
 ## 📚 Recent Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
+---
+
 ## 💡 Random Dev Quote
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+![https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 
@@ -128,6 +170,6 @@ Check out my [repositories](https://github.com/Data-MLexplorer?tab=repositories)
 
 ### Show some ❤️ by starring some of the repositories!
 
-![](https://hit.yhype.me/github/profile?user_id=43400356)
+![https://hit.yhype.me/github/profile?user_id=43400356](https://hit.yhype.me/github/profile?user_id=43400356)
 
 </div>
