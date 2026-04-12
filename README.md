@@ -39,7 +39,7 @@ A full-stack **Stroke Risk Prediction** system with a FastAPI backend, Streamlit
 
 ## 💼 Featured Projects
 
-### 🧠 Stroke Risk Prediction – ML + FastAPI
+
 ### 🧠 Stroke Risk Prediction + LLM Assistant – ML + FastAPI + Streamlit
 Full-stack stroke risk prediction app with a FastAPI backend, dark-themed Streamlit UI, and an OpenAI GPT-4o health assistant for interpreting results.  
 **Highlights:** Logistic Regression pipeline, SMOTE oversampling, Pydantic input validation, contributing risk factors panel, client-side OpenAI chat, one-hot encoding for 16 features.  
