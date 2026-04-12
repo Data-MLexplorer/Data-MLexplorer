@@ -15,31 +15,35 @@
 
 ---
 
-## 🧠 Highlight Project – Stroke Risk Prediction
+## 🧠 Highlight Project – Stroke Risk Prediction + LLM Assistant
 
-A machine learning–based **Stroke Risk Prediction** system with a FastAPI backend and modern web interface.
+A full-stack **Stroke Risk Prediction** system with a FastAPI backend, Streamlit frontend, and an OpenAI-powered health assistant.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange?logo=scikit-learn)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?logo=openai&logoColor=white)
 
-- Real-time stroke risk prediction based on patient data  
-- Logistic Regression pipeline with preprocessing (numerical + categorical features)  
-- REST API built with FastAPI and Uvicorn  
-- Modern, responsive frontend (HTML, CSS, JavaScript) for interactive predictions  
-- Packaged ML model (`stroke_model_bundle.pkl`) with reproducible pipeline
+- Real-time stroke risk prediction based on patient data
+- Logistic Regression pipeline trained on multiple data versions (original, SMOTE, undersampled)
+- Evaluated on accuracy, sensitivity, specificity, F1, balanced accuracy, and ROC-AUC
+- REST API built with FastAPI, Pydantic validation, and Uvicorn
+- Dark-themed Streamlit UI with risk gauge, color-coded risk level, and contributing risk factors panel
+- Integrated OpenAI GPT-4o health assistant — API key stays fully client-side
+- One-hot encoded feature pipeline with 16 model-ready columns
 
-**Tech Stack:** FastAPI, scikit-learn, pandas, numpy, category_encoders, HTML/CSS/JavaScript  
+**Tech Stack:** FastAPI, Streamlit, scikit-learn, pandas, numpy, OpenAI API, imbalanced-learn
 
 > 🔬 Disclaimer: This project is for educational purposes only and must not be used for real medical decisions. Always consult qualified healthcare professionals.
-
----
 
 ## 💼 Featured Projects
 
 ### 🧠 Stroke Risk Prediction – ML + FastAPI
-Machine learning–based stroke risk prediction API with a FastAPI backend and modern web UI for real-time inference on patient data.  
-**Highlights:** Logistic Regression pipeline, preprocessing, REST API, responsive frontend, JSON-based prediction endpoint (`POST /predict`).
+### 🧠 Stroke Risk Prediction + LLM Assistant – ML + FastAPI + Streamlit
+Full-stack stroke risk prediction app with a FastAPI backend, dark-themed Streamlit UI, and an OpenAI GPT-4o health assistant for interpreting results.  
+**Highlights:** Logistic Regression pipeline, SMOTE oversampling, Pydantic input validation, contributing risk factors panel, client-side OpenAI chat, one-hot encoding for 16 features.  
+🔗 [View Repo](https://github.com/Data-MLexplorer/stroke-prediction-llm)
 
 ---
 
