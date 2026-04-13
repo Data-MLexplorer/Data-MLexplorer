@@ -84,7 +84,7 @@ Advanced time series forecasting for avocado retail pricing and demand analysis.
 - Retail analytics dashboard  
 
 **Tech Stack:** Python, pandas, scikit-learn, time series analysis
-
+🔗 [View Repo](https://github.com/Data-MLexplorer/avocado_retailing)
 ---
 
 ### 📌 More Projects
