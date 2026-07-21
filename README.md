@@ -14,6 +14,28 @@
 🧪 Interested in MLOps, model deployment, and real-world ML applications
 
 ---
+## 🤖 Highlight Project – PromoDesk: LangGraph Pricing Decision Agent
+
+A retail pricing & promotion decision-support agent built with **LangGraph**, reasoning step-by-step through tool calls to recommend discount depths — with the full reasoning trace visible in a live UI, not just a final answer.
+
+![LangGraph](https://img.shields.io/badge/LangGraph-agent-6E56CF)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Anthropic](https://img.shields.io/badge/Claude-Anthropic-D97757)
+
+- Custom LangGraph `StateGraph` (not the prebuilt agent helper) implementing an explicit reason → act → observe loop
+- 3 tools: price elasticity lookup, sales trend analysis, and a promotion simulation tool projecting unit lift, revenue, and margin dollar impact
+- Agent explicitly weighs revenue lift against margin erosion before recommending a discount depth, encoding a real merchandising heuristic into the reasoning loop
+- FastAPI backend + live "Reasoning Ledger" UI showing every tool call and result as the agent works
+- Stubbed-LLM test harness validates routing/tool-execution logic without needing a live API key
+
+**Tech Stack:** LangGraph, LangChain, FastAPI, Python, OpenAI GPT/ Claude ANTHROPIC
+
+🔗 [View Repo](https://github.com/Data-MLexplorer/promo-desk-agent)
+
+
+
+
 
 ## 🧠 Highlight Project – Stroke Risk Prediction + LLM Assistant
 
@@ -38,7 +60,6 @@ A full-stack **Stroke Risk Prediction** system with a FastAPI backend, Streamlit
 > 🔬 Disclaimer: This project is for educational purposes only and must not be used for real medical decisions. Always consult qualified healthcare professionals.
 
 ## 💼 Featured Projects
-
 
 ### 🧠 Stroke Risk Prediction + LLM Assistant – ML + FastAPI + Streamlit
 Full-stack stroke risk prediction app with a FastAPI backend, dark-themed Streamlit UI, and an OpenAI GPT-4o health assistant for interpreting results.  
