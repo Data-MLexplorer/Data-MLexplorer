@@ -11,7 +11,7 @@
 📊 Turning data into actionable insights  
 💡 Always learning and experimenting with new technologies  
 🎯 Focus: Data Science, Machine Learning, and Analytics  
-🧪 Interested in MLOps, model deployment, and real-world ML applications
+🧪 Interested in Data Science, model deployment, MLOPs  and real-world ML applications
 
 ---
 ## 🤖 Highlight Project – PromoDesk: LangGraph Pricing Decision Agent
